@@ -1,0 +1,2 @@
+# LearningManagementApp
+プログラミング学習コミュニティPOSSEにて制作する学習管理アプリです
