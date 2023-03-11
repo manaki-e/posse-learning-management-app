@@ -9,21 +9,21 @@
                     <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                         <div class="p-6 text-gray-900">
                             <div class="text-blue-700 font-bold">Today</div>
-                            <div class="font-bold text-3xl">3</div>
+                            <div class="font-bold text-3xl">{{ $current_day_hour }}</div>
                             <div class="text-blue-300">hour</div>
                         </div>
                     </div>
                     <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                         <div class="p-6 text-gray-900">
                             <div class="text-blue-700 font-bold">Month</div>
-                            <div class="font-bold text-3xl">120</div>
+                            <div class="font-bold text-3xl">{{ $current_month_hour }}</div>
                             <div class="text-blue-300">hour</div>
                         </div>
                     </div>
                     <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                         <div class="p-6 text-gray-900">
                             <div class="text-blue-700 font-bold">Total</div>
-                            <div class="font-bold text-3xl">1348</div>
+                            <div class="font-bold text-3xl">{{ $total_hour }}</div>
                             <div class="text-blue-300">hour</div>
                         </div>
                     </div>
